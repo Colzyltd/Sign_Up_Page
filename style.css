@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: url("asset/car.png") darkslategray no-repeat;
+    background-size: cover;
+    background-blend-mode: screen;
+    opacity: 1;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 5px 10px;
+
+}
+label {
+    /*font-style: italic;*/
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 12px;
+}
+h1 {
+    text-transform: capitalize;
+    color: saddlebrown;
+
+}
+p {
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 2px auto;
+    padding: 1%;
+}
+.logo img {
+    height: 60px;
+    text-decoration: none;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-item {
+    list-style: none;
+    text-transform: uppercase;
+}
+.nav-link {
+    text-decoration: none;
+    color: lemonchiffon;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+.nav-link:hover {
+    background-color: lemonchiffon;
+    color: darkslategray;
+    border-radius: 15px;
+    transition: 1s ease;
+}
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.social-link img {
+    height: 40px;
+    width: 40px;
+}
+.social a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    /*padding: 10px;*/
+}
+
+/* LOGIN */
+.user-login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: 500px;
+    background-color: orange;
+    color: saddlebrown;
+    border-radius: 30px;
+}
+.avatar {
+    border-radius: 5px;
+    background-color: saddlebrown;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Cambria;
+}
+.address {
+    text-align: left;
+}
+
+/* LOGIN FORM */
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: 500px;
+    background-color: saddlebrown;
+    color: #ffffff;
+    border-radius: 30px;
+
+}
+.greeting{
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    font-family: Cambria;
+    font-size: 24px;
+}
+.description {
+    text-align: left;
+    font-family: helvetica;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+.button {
+    text-align: center;
+    position: relative;
+    text-transform: capitalize;
+    margin: 5px;
+    padding: 2px;
+    background-color: darkslategray;
+    /*height: 30px;*/
+}
+.sign-in-button {
+    background-color: sandybrown;
+    color: saddlebrown;
+    padding: 3px 20px;
+    border-radius: 5px;
+}
+.sign-in-button:hover {
+    background-color: orange;
+    color: darkslategray;
+    border-radius: 15px;
+    transition: 1s ease;
+    box-shadow: white 5px 3px 5px;
+}
+.sign-up-button {
+    padding: 3px 20px;
+}
+/* CHECKBOX */
+.text-input {
+    width: 80%;
+    background-color: sandybrown;
+    color: saddlebrown;
+    border-radius: 5px;
+    border: none   ;
+    height: 50%;
+    padding: 4px 15px;
+    outline: none;
+}
+.checkbox-container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+.checkbox > input {
+    outline: none;
+    background-color: orange;
+    color: white;
+}
+.forgot-password {
+    color: orange;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+
+}
+.google-button {
+    width: 50%;
+    color: saddlebrown;
+    background-color: sandybrown;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 0 5px;
+    text-align: center;
+}
+/* SIGN-UP */
+.sign-up {
+    text-align: left;
+    width: 100%;
+}
+.sign-up-link {
+    text-decoration: none;
+    color: orange;
+}
